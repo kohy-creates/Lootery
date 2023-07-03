@@ -1,0 +1,44 @@
+{
+	"type": "minecraft:gift",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:torchflower_seeds"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:pitcher_pod"
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:wheat_seeds"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:beetroot_seeds"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:pumpkin_seeds"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:melon_seeds"
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:gameplay/sniffer_digging"
+}

@@ -1,0 +1,115 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 3,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bread",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:torch",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 5,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:acacia_sapling",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:wheat_seeds"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:melon_seeds"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:pumpkin_seeds"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bucket"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:wheat",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:book",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:apple",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:chests/village/village_savanna_house"
+}
