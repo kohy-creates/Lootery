@@ -21,9 +21,14 @@ Lootery changes chest loot in different ways for different reasons:
 - **Piglins** may drop Gold Nuggets and Gold Ingots at the same odds as Zombified Piglins.
 - **Wandering Traders** drop 2 - 6 Emeralds on death.
 - **Villagers** and **Zombie Villagers** sometimes drop Sticks, Wheat Seeds or rarely Emeralds on death.
+- **Pillagers** can drop 0 - 2 Arrows.
+- **Guardian** and **Elder Guardians** no longer drop fish. Increased Prismarine drop amounts.
+- **Cave Spiders** drop less loot than regular Spiders, because, well, they are quarter their size.
+- **Pandas** drop 0 - 2 Bamboo instead of always 1 for parity with Bedrock Edition.
 
 ### Other
 - Tamed Cats are more likely to bring Phantom Membranes in the morning.
 - Sniffers have a 50% chance to dig up extra seeds.
 - Piglins have slightly expanded selection of items for bartering.
     - They can now also give Ribs and Netherite Upgrade smithing templates.
+- Tweaked archaeology loot tables so they make more sense. How did an Iron Axe survive all this long in an underwater ruin and it isn't even slightly rusted?
