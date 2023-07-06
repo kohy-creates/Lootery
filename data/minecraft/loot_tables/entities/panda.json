@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bamboo",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 0,
+								"max": 2
+							},
+							"add": false
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:entities/panda"
+}

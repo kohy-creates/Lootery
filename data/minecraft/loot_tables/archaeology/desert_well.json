@@ -1,0 +1,47 @@
+{
+	"type": "minecraft:archaeology",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:arms_up_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:brewer_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:brick"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gold_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stick"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gold_nugget",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 5
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:archaeology/desert_well"
+}

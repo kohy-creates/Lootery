@@ -355,6 +355,40 @@
 						}
 					]
 				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:location_check",
+					"predicate": {
+						"structure": "minecraft:shipwreck"
+					}
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:sand",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 10
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:location_check",
+					"predicate": {
+						"structure": "minecraft:shipwreck_beached"
+					}
+				}
 			]
 		}
 	],

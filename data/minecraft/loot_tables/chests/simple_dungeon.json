@@ -16,7 +16,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 15,
+					"weight": 11,
 					"name": "minecraft:golden_apple"
 				},
 				{
@@ -89,7 +89,7 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
-								"max": 4
+								"max": 3
 							},
 							"add": false
 						}
@@ -105,7 +105,7 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
-								"max": 4
+								"max": 3
 							},
 							"add": false
 						}
@@ -121,7 +121,7 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
-								"max": 4
+								"max": 3
 							},
 							"add": false
 						}
@@ -137,7 +137,7 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
-								"max": 4
+								"max": 3
 							},
 							"add": false
 						}
@@ -197,7 +197,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 10,
+					"weight": 9,
 					"name": "minecraft:melon_seeds",
 					"functions": [
 						{
@@ -213,7 +213,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 10,
+					"weight": 9,
 					"name": "minecraft:pumpkin_seeds",
 					"functions": [
 						{
@@ -229,7 +229,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 10,
+					"weight": 9,
 					"name": "minecraft:beetroot_seeds",
 					"functions": [
 						{
@@ -326,6 +326,19 @@
 								"max": 5
 							},
 							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:spider_eye",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
 						}
 					]
 				}

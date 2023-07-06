@@ -4,14 +4,14 @@
 		{
 			"rolls": {
 				"type": "minecraft:uniform",
-				"min": 1,
-				"max": 4
+				"min": 4,
+				"max": 6
 			},
 			"bonus_rolls": 0,
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 10,
+					"weight": 8,
 					"name": "minecraft:iron_ingot",
 					"functions": [
 						{
@@ -19,7 +19,7 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
-								"max": 5
+								"max": 3
 							},
 							"add": false
 						}
@@ -27,7 +27,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 5,
+					"weight": 4,
 					"name": "minecraft:gold_ingot",
 					"functions": [
 						{
@@ -35,7 +35,7 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
-								"max": 3
+								"max": 2
 							},
 							"add": false
 						}
@@ -50,8 +50,24 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
-								"min": 4,
-								"max": 9
+								"min": 3,
+								"max": 5
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 11,
+					"name": "minecraft:bread",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1,
+								"max": 2
 							},
 							"add": false
 						}
@@ -60,38 +76,6 @@
 				{
 					"type": "minecraft:item",
 					"weight": 10,
-					"name": "minecraft:coal",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 3,
-								"max": 8
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 15,
-					"name": "minecraft:bread",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 1,
-								"max": 3
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 15,
 					"name": "minecraft:apple",
 					"functions": [
 						{
@@ -99,7 +83,7 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
-								"max": 3
+								"max": 2
 							},
 							"add": false
 						}
@@ -107,6 +91,7 @@
 				},
 				{
 					"type": "minecraft:item",
+					"weight": 2,
 					"name": "minecraft:iron_pickaxe"
 				},
 				{
@@ -131,6 +116,95 @@
 								"min": 1,
 								"max": 2
 							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"name": "minecraft:golden_apple"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:diamond_pickaxe",
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.2,
+								"max": 0.45
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_sword",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"min": 15,
+								"max": 29
+							},
+							"treasure": true
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_chestplate",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"min": 15,
+								"max": 29
+							},
+							"treasure": true
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_boots",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"min": 15,
+								"max": 29
+							},
+							"treasure": true
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_leggings",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"min": 15,
+								"max": 29
+							},
+							"treasure": true
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_helmet",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"min": 15,
+								"max": 29
+							},
+							"treasure": true
 						}
 					]
 				}
